@@ -3,9 +3,6 @@ var session = require('express-session');
 var mustacheExpress = require('mustache-express');
 var app = express();
 var bodyParser = require('body-parser');
-var validator = require('validator');
-var Sequelize = require('sequelize');
-
 var routes = require('./routes/routes');
 
 

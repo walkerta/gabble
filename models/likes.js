@@ -12,10 +12,3 @@ module.exports = function(sequelize, DataTypes) {
   });
   return Likes;
 };
-
-
-function Myfunction(){
-  document.likes.result.value += "likes";
-  document.likes.result.style.textAlign="right";
-
-}
